@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #03131b;
+}
+h2 {
+    color: #e8ece6;
+}
+
+p {
+   color:#9aa5a1;
+  
+}
+.cta {
+    color: #a3a64a;
+    background-color: transparent;
+    padding: 10px 22px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.cta:hover {
+    color: #e8ece6;
+    background-color: #8c8f3c;
+}
+
+.btn {
+     color: #e8ece6;
+   background-color: #8c8f3c;
+    padding: 10px 22px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+/* Navigation Section */
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e2f2a;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 10vh;
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+     position: fixed;
+     right: -200px;
+     background-color: #1e2f2a;
+     min-height: 350px;
+     width: 150px;
+     top: 0;
+     z-index: 2;
+     transition: 1s;
+}
+#closeMenu {
+    color:white;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    font-size: 28px;
+    left: 0;
+    top: 20px;
+}
+#openMenu {
+    color:white;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    top: 20;
+}
+.nav-links ul {
+    margin-top: 80px;
+}
+.nav-links ul, li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+   
+}
+.nav-links li a {
+     color: white;
+     text-decoration: none;
+}
+.nav-links li a:hover {
+    text-decoration: underline;
+    color:#8c8f3c;
+}
+/*End Navigation Section */
+
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+     height: 45vh;
+    background:rgba(0, 0, 0, 0.5) url(./Images/cover.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+   
+}
+.hero-container h2 {
+    font-size: 3rem;
+     margin-inline: 1rem;
+}
+.hero-container p {
+    margin-inline: 1rem;
+     font-size: 1.5rem;
+}
+/*End Hero Section */
+
+/* Wildlife Section */
+.wild-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+.text-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+     margin-inline: 1rem;
+}
+.wild-container div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*End Wildlife Section */
+
+
+/* Safari Section */
+.safari-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.safari-container h2, p {
+     margin-inline: 1rem;
+}
+.all-container {
+    display: flex;
+    flex-direction: column;  
+     margin-inline: 1rem; 
+     margin-top: 1rem;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+/*End Safari Section */
+
+
+/* Accommodation Section */
+.accommodation-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+.scroll-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    padding:1rem;
+    width: 100%;
+}
+.scroll-container img {
+    width: 300px;
+    height: 200px;
+    /* flex-shrink: 0; */
+    border-radius: 10px;
+    object-fit: cover;
+}
+/* .scroll-container::-webkit-scrollbar {
+    display: none;
+} */
+/*End Accommodation Section */
+
+/* Footer Section */
+.footer-container {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e2f2a;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 20vh;
+}
+.footer-container p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*End Footer Section */

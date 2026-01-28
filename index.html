@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serengeti National Park</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+   <!-- Navigation Section -->
+    <div class="navigation-container">
+        <nav class="nav-links" id="navBar">
+              <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i>
+            <ul>
+                   <li> <a href="">HOME</a></li>
+                   <li> <a href="">ABOUT</a></li>
+                    <li><a href="">SAFARIS</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">CONTACT</a></li>
+            </ul>
+        </nav>
+         <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+      
+    </div>
+   <!--End Navigation Section -->
+
+   <!-- Hero Section -->
+    <div class="hero-container">
+        <h2>Welcome to Serengeti</h2>
+        <p>
+            Where nature lives, wildlife rules, and unforgettable journeys begin.
+        </p>
+        <div>
+            <a href=""><button class="cta">Plan Your Safari</button></a>
+        </div>
+    </div>
+   <!--End Hero Section -->
+
+
+
+   <!--Wildlife Section-->
+   <div class="wild-container">
+   <div class="text-img">
+     <div class="text">
+        <h2>Wildlife & Nature</h2>
+    <p>
+        Serengeti offers a close encounter with wildlife in their natural habitat.
+    </p><br>
+    <p>
+         From sunrise to sunset, you will witness nature's wonders unfold before your eyes.
+    </p>
+    <a href=""><button class="btn">Explore More</button></a>
+    </div>
+    <div>
+        <img src="./Images/chui.webp" alt="">
+        <img src="./Images/lion.jpg" alt="">
+        <!-- <img src="./Images/girf.jpg" alt="">
+        <img src="./Images/wild.jpg" alt=""> -->
+    </div>
+   </div>
+      <!-- <div><a href=""><button class="cta">Explore More</button></a></div> -->
+   </div>
+   <!--End Wildlife Section-->
+
+
+
+   <!-- Safari Experience -->
+    <div class="safari-container">
+    <h2>
+       Safari Experiance
+    </h2>
+    <p>
+        Join us for an imersive safari experiance where every journey tells a story
+        of wildlife, landscapes, and adventure.
+    </p>
+     <div class="all-container">
+         <div class="all">
+          <div class="img">
+            <img src="./Images/gd.jpg" alt="">
+        </div>
+
+        <div class="img-text">
+          <p>Game Drives</p>
+        </div>
+      </div>
+
+      <div class="all">
+          <div class="img">
+            <img src="./Images/mgr.webp" alt="">
+        </div>
+
+        <div class="img-text">
+          <p>Great Migration Viewing</p>
+        </div>
+      </div>
+
+      <div class="all">
+          <div class="img">
+            <img src="./Images/tourism.jpg" alt="">
+        </div>
+
+        <div class="img-text">
+         <p>Photography Safaris</p>
+        </div>
+      </div>
+
+      <div class="all">
+          <div class="img">
+            <img src="./Images/cu.avif" alt="">
+        </div>
+
+        <div class="img-text">
+         <p>Cultural Tours</p>
+        </div>
+      </div>
+
+      <div class="all">
+          <div class="img">
+            <img src="./Images/sunset.jpg" alt="">
+        </div>
+
+        <div class="img-text">
+           <p>Morning & Evening</p>
+        </div>
+      </div>
+
+     </div>
+    </div>
+   <!--End Safari Experience -->
+
+
+   <!-- Accommodation Section -->
+    <div class="accommodation-c">
+        <h2>Accommodation</h2>
+        <p>
+            Enjoy world-class accommodation ranging from authentic camps to luxury lodges,
+            all surrounded by wildlife and stunning views.
+        </p>
+        <div class="scroll-container">
+            <img src="./Images/ac1.jpg" alt="">
+            <img src="./Images/ac2.jpg" alt="">
+            <img src="./Images/ac3.jpg" alt="">
+            <img src="./Images/ac4.jpg" alt="">
+        </div>
+    </div>
+   <!--End Accommodation Section -->
+
+
+   <!-- Footer Section -->
+    <div class="footer-container">
+        <p>
+            Serengeti-The true spirit of wild Africa.
+        </p>
+        <p>
+            © 2026 Serengeti. All rights reserved. <br>
+        Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+    </div>
+   <!--End Footer Section -->
+
+
+   <script>
+    var navBar = document.getElementById ("navBar")
+
+    function showmenu () {
+        navBar.style.left= "0";
+    }
+
+    function hidemenu () {
+        navBar.style.left ="-200px";
+    }
+   </script>
+
+
+    <!-- <script>
+        var navBar =document.getElementById("navBar");
+
+        function showmenu(){
+            navBar.style.right="0";
+        }
+
+        function hidemenu(){
+            navBar.style.right ="-200px";
+        }
+    </script> -->
+</body>
+</html>
