@@ -12,14 +12,19 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1
 <body>
    <!-- Navigation Section -->
     <div class="navigation-container">
+        <div class="logo">
+          <a href="index.html">
+              <img src="./Images/file_00000000a5f0723085f58738657f1fe8.png" alt="" width="200px">
+          </a>
+        </div>
         <nav class="nav-links" id="navBar">
               <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i>
             <ul>
-                   <li> <a href="">HOME</a></li>
-                   <li> <a href="">ABOUT</a></li>
-                    <li><a href="">SAFARIS</a></li>
+                   <li> <a href="index.html">HOME</a></li>
+                   <li> <a href="about.html">ABOUT</a></li>
+                    <li><a href="safari.html">SAFARIS</a></li>
                     <li><a href="">GALLERY</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
          <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
@@ -165,11 +170,11 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1
     var navBar = document.getElementById ("navBar")
 
     function showmenu () {
-        navBar.style.left= "0";
+        navBar.style.right= "0";
     }
 
     function hidemenu () {
-        navBar.style.left ="-200px";
+        navBar.style.right ="-200px";
     }
    </script>
 
