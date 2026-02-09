@@ -73,7 +73,7 @@ p {
     cursor: pointer;
     margin: 10px;
     position: absolute;
-    font-size: 28px;
+    font-size: 20px;
     right: 0;
     top: 20px;
 }
@@ -85,9 +85,10 @@ p {
     position: absolute;
     right: 0;
     top: 20;
+    font-size: 20px;
 }
 .nav-links ul {
-    margin-top: 80px;
+    margin-top: 8px;
 }
 .nav-links ul, li {
     display: flex;
@@ -105,6 +106,9 @@ p {
 .nav-links li a:hover {
     text-decoration: underline;
     color:#8c8f3c;
+}
+.nav-links button {
+    font-size: 12px;
 }
 /*End Navigation Section */
 
@@ -232,6 +236,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    margin-top: 6rem;
 }
 .about-text {
     text-align: center;
@@ -241,6 +246,14 @@ p {
     justify-content: center;
     gap: 10px;
     line-height: 1.7rem;
+    background:rgba(0, 0, 0, 0.5) url(Images/lion.jpg);
+    background-blend-mode: darken;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100%;
 }
 .about-text h2 {
     font-size: 4rem;
@@ -248,12 +261,21 @@ p {
     margin-bottom: 1rem;
     letter-spacing: 0.5rem;
 }
-.about-text p {
+.description {
+    text-align: center;
+}
+.description h4 {
+    color: white;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.description p{
+    text-align: center;
      color:#9aa5a1;
      font-size: 1.2rem;
-     margin-bottom: 1rem;
+     margin-bottom: 1.2rem;
 }
-.about-text p:nth-of-type(1) {
+.about-text p {
     font-size: 1.5rem;
     text-decoration: underline #8c8f3c;
 
@@ -263,8 +285,14 @@ p {
     border-radius: 10px;
     object-fit: cover;
 }
-.about-img div {
+.about-img {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+.about-img button {
+    margin-top: 5px;
+    margin-bottom: 1rem;
 }
 /*End About Section */
 
@@ -299,7 +327,7 @@ p {
 .we-offer div img {
     width: 100%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 100%;
 }
 /*End Safari Section */
 
@@ -374,4 +402,102 @@ p {
 .end-contact h2 {
     color: white;
 }
+.info-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.icon-bu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.9rem;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
 /*End Contact Section */
+
+
+/* Booking Section */
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background:rgba(0, 0, 0, 0.5) url(Images/uhakika.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 100vh;
+    margin-top: 5rem;
+}
+.book h2 {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.book p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(224, 224, 224, 0.3);
+    padding: 1rem;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    gap: 1rem;
+    width: 400px;
+}
+.form h4 {
+    font-size: 2rem;
+    color: #8c8f3c;
+}
+.form div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form div input,
+select,
+textarea {
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #1e2f2a;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+.form div label {
+    color: white;
+    padding-bottom: 0.5;
+}
+textarea {
+    text-align: center;
+    padding-top: 1rem;
+}
+/* .form div select option {
+    background-color: #1e2f2a;
+} */
+.unyama {
+    background-color: #1e2f2a;
+    color: #fff;
+}
+
+/*End Booking Section */

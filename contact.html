@@ -9,7 +9,33 @@
 rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="contact-container">
+
+ <!-- Navigation Section -->
+    <div class="navigation-container">
+        <div class="logo">
+          <a href="index.html">
+              <img src="./Images/file_00000000a5f0723085f58738657f1fe8.png" alt="" width="200px">
+          </a>
+        </div>
+        <nav class="nav-links" id="navBar">
+              <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i>
+              <img src="Images/images.jpeg" alt="">
+            <ul>
+                   <li> <a href="index.html">HOME</a></li>
+                   <li> <a href="about.html">ABOUT</a></li>
+                    <li><a href="safari.html">SAFARIS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="book.html"><Button class="btn">BOOK NOW</Button></a></li>
+            </ul>
+        </nav>
+         <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+      
+    </div>
+   <!--End Navigation Section -->
+
+
+  <!-- Contact Section -->
+     <div class="contact-container">
       <div class="top-contact">
         <h2>Contact Us</h2>
         <h4>Get in Touch With Serengeti Safaris</h4>
@@ -90,19 +116,54 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1
 
 
     <div class="message">
-      <h2>Send Us a Message</h2>
+       <div class="send">
+              <h2>Send Us a Message</h2>
       <p>
         Have a quation or special request? Send us a message and our team will Get
         back to you as soon as possible. We're happy to assist with safari packages,
         group tours, honeymoon safaris, and private travel arrangements.
       </p>
+        <div>
+            <a href="book.html"><button class="btn">Send Us Message</button></a>
+        </div>
+       </div>
 
-      <h2>Let's Start Your Adventure</h2>
+  <div class="start">
+        <h2>Let's Start Your Adventure</h2>
       <p>
         Your journey to the heart of Africa begins with a simple message. Contact
         us today and let Serengeti Safaris create an experience you'll remember for
         a lifetime.
       </p>
+  </div>
     </div>
+   <!-- End Contact Section -->
+
+
+
+   <!-- Footer Section -->
+    <div class="footer-container">
+        <p>
+            Serengeti-The true spirit of wild Africa.
+        </p>
+        <p>
+            © 2026 Serengeti. All rights reserved. <br>
+        Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+    </div>
+   <!--End Footer Section -->
+
+
+   <script>
+    var navBar = document.getElementById ("navBar")
+
+    function showmenu () {
+        navBar.style.right= "0";
+    }
+
+    function hidemenu () {
+        navBar.style.right ="-200px";
+    }
+   </script>
+
 </body>
 </html>

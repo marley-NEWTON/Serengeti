@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booking Section</title>
     <link rel="stylesheet" href="style.css">
-      <link
+     <link
 rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 <body>
 
-   <!-- Navigation Section -->
+<!-- Navigation Section -->
     <div class="navigation-container">
         <div class="logo">
           <a href="index.html">
@@ -34,44 +34,59 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1
     </div>
    <!--End Navigation Section -->
 
-   <!-- Safari Section -->
-     <div class="safaris-container">
-   <div class="safaris">
-         <h2>Experiance the True <br>Spirit of Africa <br>Safari</h2>
+
+    <!-- Booking Section -->
+     <div class="book">
+        <h2>Book Your Safari</h2>
         <p>
-            Discover the beauty of Serengeti through unforgettable safari adventures that
-            bring you closer to wildlife, breathtaking landscapes, and authentic
-            African culture. From thrilling game drives to magical sunset moments,
-            every journey is crafted to create lasting memories
+            Fill in the form below then we'll get <br>back to you shortly
         </p>
-    <a href="book.html"><button class="btn">Book Your Safari Today</button></a>
-   </div>
 
-   <div class="we-offer">
-    <h2>What We Offer</h2>
-    <div>
-        <img src="Images/woow.avif" alt="">
-        <p>Wildlife Safaris (Big Five)</p>
-    </div>
+        <div class="form">
+            <h4>Booking Details</h4>
 
-    <div>
-        <img src="Images/mgr.webp" alt="">
-        <p>The Great Migration experiance</p>
-    </div>
+            <div>
+                <label for="name">Name</label>
+                <input id="name" placeholder="Full Name">
+            </div>
 
-    <div>
-        <img src="Images/group.webp" alt="">
-        <p>Luxury & budget safari</p>
-    </div>
+               <div>
+                <label for="email">Email Address</label>
+                <input id="email" placeholder="Serengeti@gmail.com">
+            </div>
 
-    <div>
-        <img src="Images/hh.avif" alt="">
-        <p>Private & group safari</p>
-    </div>
+               <div>
+                <label for="tell">Phone / WhatsApp Number</label>
+                <input  id="tell" placeholder="+255 700 000 000">
+            </div>
 
-   </div>
-    </div>
-    <!-- End Safari Section -->
+               <div>
+                <label for="date">Travel Date</label>
+                <input type="date" id="date">
+            </div>
+
+               <div>
+                <label for="number">Number of Guest</label>
+                <input type="number" id="number">
+            </div>
+
+               <div>
+                <label for="safari">Safari Type</label>
+                <select id="safari" class="unyama">
+                    <option>...Select Safari</option>
+                    <option>Luxury</option>
+                    <option>Budget</option>
+                    <option>Custom</option>
+                </select>
+            </div>
+
+            <div>
+       <textarea name="" id="" placeholder="Message"></textarea>
+     </div>
+     <a href="book.html"><button class="btn">Send</button></a>
+        </div>
+     </div>
+    <!-- Booking Section -->
 
 
    <!-- Footer Section -->
