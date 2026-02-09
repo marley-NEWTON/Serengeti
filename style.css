@@ -236,7 +236,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 .about-text {
     text-align: center;
@@ -254,6 +254,7 @@ p {
     background-repeat: no-repeat;
     border-radius: 50%;
     width: 100%;
+
 }
 .about-text h2 {
     font-size: 4rem;
@@ -308,7 +309,8 @@ p {
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
-    height: 70vh;
+    height: 50vh;
+    margin-top: 5rem;
 }
 .safaris-container h2 {
     text-align: center;
@@ -333,9 +335,10 @@ p {
 
 
 /* Contact Section */
-.contact-container {
+.contact-container{
     display: flex;
     flex-direction: column;
+     margin-top: 3rem;
 }
 .top-contact {
     display: flex;
@@ -352,6 +355,7 @@ p {
 }
 .top-contact h2 {
     font-size: 2.9rem;
+    padding-top: 2rem;
 }
 .top-contact h4 {
     color: white;
@@ -477,9 +481,10 @@ select,
 textarea {
     padding: 8px 5px;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #1e2f2a;
     border: 1px solid #1e2f2a;
     color: white;
+    font-weight: 800;
     font-style: italic;
     text-align: center;
     font-size: 15px;
