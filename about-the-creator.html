@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About The Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+       <!-- Navigation Section -->
+    <div class="navigation-container">
+        <div class="logo">
+          <a href="index.html">
+              <img src="./Images/file_00000000a5f0723085f58738657f1fe8.png" alt="" width="200px">
+          </a>
+        </div>
+        <nav class="nav-links" id="navBar">
+              <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i>
+              <img src="Images/images.jpeg" alt="">
+            <ul>
+                   <li> <a href="index.html">HOME</a></li>
+                   <li> <a href="about.html">ABOUT</a></li>
+                    <li><a href="safari.html">SAFARIS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="book.html"><Button class="btn">BOOK NOW</Button></a></li>
+            </ul>
+        </nav>
+         <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+      
+    </div>
+   <!--End Navigation Section -->
+    <!-- About Me Section -->
+
+<div class="cr-container">
+        <div class="creator">
+        <h2>About the Creator</h2>
+        <p class="intro">
+            This website was created by a young an passionate  student web developer with a strong
+            interest in digital innovation, wildlife conservation, and tourism development. The idea
+            behind this platform came from a desire to use technology as a tool to promote
+            the beauty, value, and global importance of Serengeti National Park.
+        </p>
+        <img src="Images/marley.jpg" alt="">
+        <p>
+            As a student who still learning and growing in the field of web development, the creator
+            chose to build this platform not for commercial gain, but as a practical project to 
+            demostrate skills, creativity, and commitment to meaningfull causes.
+            Serengeti is one of Africa's most iconic natural treasures, and this website aims to contribute,
+            in a small but sincere way, to raising awareness about its wildlife, landscapes, and 
+            conservation value through digital storytelling.
+        </p>
+        <p>
+            This project also reflects a belief that young people can play an active role in 
+            national development by applying digital skills to real-word challenges.
+            By combining web design, visual content, and informative sections, the creator
+            hopes this platform can inspire others-especially youth-to appreciate nature,
+            support sustainable tourism, and think creatively about how technology can support
+            conservation efforts.
+        </p>
+        <p>
+            The website remains open for learning, improvement, and collaboration, and it
+            represents both a personal learning journey and a vision how digital platforms
+            can support tourism awareness and environmental responsibility.
+        </p>
+    </div>
+</div>
+     <!-- End About Me Section -->
+
+
+
+   <!-- Footer Section -->
+    <div class="footer-container">
+        <p>
+            Serengeti-The true spirit of wild Africa.
+        </p>
+        <p>
+            © 2026 Serengeti. All rights reserved. <br>
+        Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+    </div>
+   <!--End Footer Section -->
+
+
+   <script>
+    var navBar = document.getElementById ("navBar")
+
+    function showmenu () {
+        navBar.style.right= "0";
+    }
+
+    function hidemenu () {
+        navBar.style.right ="-200px";
+    }
+   </script>
+
+</body>
+</html>
